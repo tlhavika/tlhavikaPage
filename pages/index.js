@@ -25,7 +25,7 @@ export default function Home({ headerFooter, products, categorias }) {
   };
   return (
     <Layout headerFooter={headerFooter || {}} seo={seo}>
-      <BootstrapCarousel />
+     
       <div className="container mx-auto py-4 min-h-50vh">
         <Products products={products} categorias={categorias} />
       </div>

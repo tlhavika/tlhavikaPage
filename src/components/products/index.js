@@ -36,7 +36,7 @@ const Products = ({ products, categorias }) => {
 
   return (
     <>
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center content-center">
         <div className="block lg:hidden">
           <div className="block lg:hidden">
             <div className="flex flex-row gap-4">
@@ -121,6 +121,7 @@ const Products = ({ products, categorias }) => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };

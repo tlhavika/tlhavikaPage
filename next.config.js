@@ -5,7 +5,7 @@ module.exports = {
 	trailingSlash: false,
 	webpack: config => {
 		config.watchOptions = {
-			poll: 1000,
+			poll: 1000, 
 			aggregateTimeout: 300
 		}
 		

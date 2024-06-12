@@ -11,6 +11,7 @@ import { AppProvider } from "../context";
 import Header from "./header";
 import Footer from "./footer";
 import Seo from "../seo";
+import BootstrapCarousel from "./carousels";
 import {
   replaceBackendWithFrontendUrl,
   sanitize,
@@ -26,6 +27,7 @@ const Layout = ({ children, headerFooter, seo, uri }) => {
     <AppProvider>
       <div>
         <Seo seo={seo || {}} uri={uri || ""} />
+        {/* <BootstrapCarousel /> */}
         <Head>
           <link rel="shortcut icon" href={header?.favicon ?? "/favicon.ico"} />
           {yoastSchema ? (
@@ -39,7 +41,7 @@ const Layout = ({ children, headerFooter, seo, uri }) => {
             <title>{header?.siteTitle ?? "Tlhavika"}</title>
           )}
         </Head>
-        <Header header={header} />
+        <Header header={header} /> 
         <main>{children}</main>
         <Footer footer={footer} />
       </div>

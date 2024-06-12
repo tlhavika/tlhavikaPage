@@ -15,6 +15,7 @@ const SingleProduct = ({ product }) => {
           ) : null}
         </div>
         <div className="product-info col-span-2">
+          
           <h4 className="products-main-title text-2xl uppercase font-bold">
             {product.name}
           </h4>

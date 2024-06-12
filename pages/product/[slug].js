@@ -26,7 +26,7 @@ export default function Product( { headerFooter, product } ) {
 		<Layout
 			headerFooter={ headerFooter || {} }
 			seo={ product?.yoast_head_json ?? {} }
-			uri={ `/product/${ product?.slug ?? '' }` }
+			uri={ `/product/${ product?.slug ?? '' }` } 
 		>
 			<SingleProduct product={ product }/>
 		</Layout>

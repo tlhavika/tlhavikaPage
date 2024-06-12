@@ -16,7 +16,7 @@ const Header = ({ header }) => {
   return (
     <>
       <div className="header">
-        <nav className="bg-blue-500 py-5">
+        <nav className="bg-blue-500">
           <div className="flex items-center justify-between flex-wrap container mx-auto">
             <div className="flex items-center flex-shrink-0 text-white mr-20">
               <Link href="/">
@@ -26,16 +26,16 @@ const Header = ({ header }) => {
                       className="mr-2"
                       src={siteLogoUrl}
                       alt={`${siteTitle} logo`}
-                      width="50"
-                      height="50"
+                      width="25"
+                      height="25"
                     />
                   ) : (
                     <img
                       className="mr-2"
                       src="/LogoThavika.png"
                       alt={`${siteTitle} logo`}
-                      width="50"
-                      height="50"
+                      width="25"
+                      height="25"
                     />
                   )}
                 </a>

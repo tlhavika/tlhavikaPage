@@ -14,13 +14,19 @@ export default function BootstrapCarousel() {
         className="main-slide"
       >
         <div>
-          <img className="mr-2 h-96" src="/slayd1.png" alt={`logo`} />
+          <img className="mr-2 h-96" src="/1.png" alt={`logo`} />
         </div>
         <div>
-          <img className="mr-2 h-96" src="/slayd2.png" alt={`logo`} />
+          <img className="mr-2 h-96" src="/2.png" alt={`logo`} />
         </div>
         <div>
-          <img className="mr-2 h-96" src="/slayd3.png" alt={`logo`} />
+          <img className="mr-2 h-96" src="/3.png" alt={`logo`} />
+        </div>
+        <div>
+          <img className="mr-2 h-96" src="/4.png" alt={`logo`} />
+        </div>
+        <div>
+          <img className="mr-2 h-96" src="/5.png" alt={`logo`} />
         </div>
       </Carousel>
     </div>
